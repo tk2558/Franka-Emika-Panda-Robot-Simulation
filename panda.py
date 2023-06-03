@@ -1,18 +1,7 @@
-#///////////////////////////////////////////////////////////////////////////////
-#// BSD 3-Clause License
-#//
-#// Copyright (C) 2020, New York University
-#// Copyright note valid unless otherwise stated in individual files.
-#// All rights reserved.
-#///////////////////////////////////////////////////////////////////////////////
-
 import numpy as np
 import pybullet as p
-
-
 import time
 import os
-
 from scipy.linalg import expm
 
 def expSE3(twist):
